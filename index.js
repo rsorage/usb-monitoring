@@ -43,7 +43,7 @@ const handleShutdown = function() {
 }
 
 
-const port = 5003 || process.env.PORT;
+const port = 3000 || process.env.PORT;
 http.listen(port, function(){
     console.log(`Server listening on port ${port}`);
 });
